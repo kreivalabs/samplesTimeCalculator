@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# version 1.1 02-November-2017
+# version 1.1.1 02-November-2017
 
 # Convert samples to time, based on sampling rate, number of samples and seconds
 
@@ -33,7 +33,7 @@ print("Elapsed time in milliseconds: ", samples_milliseconds)
 print()
 print("Elapsed time in seconds: ", samples_seconds)
 print()
-print("Samples elapsed: ", samples_time)
+print("Samples elapsed in", num_seconds, "seconds: ", samples_time)
 print()
 print("Press the <Enter> key to exit.")
 input()
