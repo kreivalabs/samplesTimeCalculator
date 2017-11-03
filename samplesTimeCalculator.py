@@ -4,7 +4,12 @@
 
 # Convert samples to time, based on sampling rate, number of samples and seconds
 
-# Import Future functions (www.python-future.org)
+# version 1.1 02-November-2017
+
+# Convert samples to time, based on sampling rate, number of samples and seconds
+# Requires Future additions from http://www.python-future.org
+
+# Import Future functions
 from __future__ import absolute_import, division, print_function, unicode_literals
 from builtins import input
 
@@ -27,7 +32,8 @@ samples_seconds = num_samples / (sample_rate * 1000)
 samples_milliseconds = (num_samples / (sample_rate * 1000)) * 1000
 samples_time = (sample_rate * 1000) * num_seconds
 
-# return results, prompt for user input to exit
+
+# Return results, prompt for user input to exit
 print("=" * 80)
 print("Elapsed time in milliseconds: ", samples_milliseconds)
 print()
